@@ -1,3 +1,9 @@
 # DevOPS
-.gitignore file won't automatically add files to the repository.
-This is also applicable for untracked files.
+.gitignore file will ignore the following files and file formats:
+
+- .terraform directories
+- .tfstate files
+- crash log files
+- all .tfvars files
+- override files
+- terraform CLI config files.
